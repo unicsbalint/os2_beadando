@@ -1,0 +1,15 @@
+body div{
+    width: 30%;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color: rgb(2, 3, 51);
+    text-shadow: 1px 1px black;
+    color: white;
+    margin-top: 20%;
+    justify-content: center;
+    margin-bottom: 2%;
+}
