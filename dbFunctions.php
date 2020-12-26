@@ -1,7 +1,7 @@
 <?php
 
 function connectToDatabase(){
-    $connection = new PDO('mysql:host=sql7.freemysqlhosting.net;dbname=sql7382995;','sql7382995','xCCF8lBncq');
+    $connection = new PDO('mysql:host=db4free.net:3306;dbname=sql7382995;','sql7382995','xCCF8lBncq');
     $connection->exec("SET NAMES 'utf8'");
     return $connection;
 }

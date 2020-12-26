@@ -1,6 +1,6 @@
 <?php
   require_once 'dbFunctions.php' ;
-  $query = "SELECT * FROM os2";
+  $query = "SELECT * FROM sql7382995";
   $record = getRecord($query,[]);
 ?>
   <!DOCTYPE html>
@@ -13,7 +13,7 @@
   </head>
   <body>
   <div>
-  Az adatbázisból kinyert adat (www.freemysqlhosting.net): </br>
+  Az adatbázisból kinyert adat (www.db4free.net): </br>
  ID: <?php echo $record["id"]." "; ?> </br>
  Vezetéknév: <?php echo $record["first_name"]." "; ?> </br>
  Keresztnév: <?php echo $record["last_name"]." "; ?> </br>
